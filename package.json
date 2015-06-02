@@ -1,22 +1,21 @@
 {
-  "name": "reveal.js",
-  "version": "3.1.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://lab.hakim.se/reveal-js",
-  "subdomain": "revealjs",
+  "name": "Introduction to Node.js, MongoDB and Meteor",
+  "version": "1",
+  "description": "Presentation for FSFTN summercamp 2k15",
+  "homepage": "",
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
     "start": ""
   },
   "author": {
-    "name": "asdfasd",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Raj Anand",
+    "email": "rajanand@fsftn.org",
+    "web": "http://rajanand02.github.io"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/rajanand02/Introduction-to-nodejs-mongodb-meteor"
   },
   "engines": {
     "node": "~0.10.0"
@@ -42,8 +41,8 @@
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/hakimel/reveal.js/blob/master/LICENSE"
+      "type": "GPl v3",
+      "url": "https://github.com/rajanand02/Introduction-to-nodejs-mongodb-meteor/blob/master/LICENSE"
     }
   ]
 }
