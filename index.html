@@ -14,7 +14,9 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
 		<link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/custom.css">
 		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 		<!-- Code syntax highlighting -->
@@ -40,35 +42,37 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section data-transition='concave' data-background='http://lightning.fm/massofplanets/img/stars.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide">
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
+				<section data-transition='concave' data-background='stars.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide">
+				  <div class="row welcome">
+				    <div class="row">
+              <img src="img/intro2.png" alt=""  class="responsive-img"/>
+				    </div>
+            <div class="row">
+              <p class='left-align'>Introduction to Node.js, MongoDB and Meteor</p>
+            </div>
+            <div class="row">
+              <p class='left-align '>
+                <small><a href="" class="red-text darken-2">Raj Anand</a> / <a href="http://twitter.com/rajanand02" class="red-text darken-2 handle">@rajanand02</a></small>
+              </p>
+            </div>
+				  </div>
 				</section>
 
-				<section data-transition='concave'  data-background='http://lightning.fm/massofplanets/img/stars1.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide">
-					<h2>Hello There</h2>
-					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
+				<section data-transition='concave'  data-background='stars1.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide">
+				  <img src="img/rule.jpg" alt="" />
 				</section>
 
 				<!-- Example of nested vertical slides -->
-				<section>
+				<section data-transition='concave' data-background='stars.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
 					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+            <h1 style="margin-top: 0px">Node.js</h1>
 					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					<section data-transition='slide' data-background='stars1.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide-in">
+            <p class="" style="font-size: 3rem">Where does your JavaScript code runs?</p>
+            <p class="fragment">Typically in a Browser
+              <br />
+              (client)
+            </p>
 					</section>
 					<section>
 						<h2>Basement Level 2</h2>
@@ -381,7 +385,7 @@ Reveal.addEventListener( 'customevent', function() {
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
 		<script>
 
 			// Full list of configuration options available at:
