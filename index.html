@@ -14,7 +14,6 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/theme/black.css" id="theme">
@@ -42,7 +41,7 @@
 
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-        <section data-transition='concave' data-background='img/stars.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide">
+        <section data-transition='concave' data-background='img/stars.png' data-background-size="300px" data-background-repeat="repeat" data-background-transition="slide">
           <div class="row welcome">
             <div class="row">
               <img src="img/intro2.png" alt=""  class="responsive-img"/>
@@ -51,84 +50,79 @@
               <p class='left-align'>Introduction to Node.js, MongoDB and Meteor</p>
             </div>
             <div class="row">
-              <p class='left-align '>
-                <small><a href="" class="red-text darken-2">Raj Anand</a> / <a href="http://twitter.com/rajanand02" class="red-text darken-2 handle">@rajanand02</a></small>
+              <p style="font-size: 3rem;  ">
+                <small><a href="" style="color:#d32f2f">Raj Anand</a> / <a href="http://twitter.com/rajanand02" style="color:#d32f2f; text-transform: none;">@rajanand02</a></small>
               </p>
             </div>
           </div>
         </section>
 
-        <section data-transition='concave'  data-background='img/stars1.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide">
+        <section data-transition='concave'  data-background='img/stars1.png' data-background-size="300px" data-background-repeat="repeat" data-background-transition="slide">
           <img src="img/rule.jpg" alt="" />
         </section>
 
         <!-- Example of nested vertical slides -->
-        <section data-transition='concave' data-background='img/stars.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
-          <section>
-            <h1 style="margin-top: 0px">Node.js</h1>
-          </section>
-          <section>
-            <p class="" style="font-size: 3rem">Where does your JavaScript code runs?</p>
-            <p class="fragment">Typically in a Browser
-              <br />
-              (client)
-            </p>
+        <section data-transition='concave' data-background='img/stars.png' data-background-size="300px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
+            <img src="img/nodejs.png" alt="" style="width: 80%;" />
+        </section>
+
+        <section data-transition='concave'  data-background='img/stars1.png' data-background-size="200px" data-background-repeat="repeat" data-background-transition="slide">
+        <section>
+          <p class="" style="font-size: 4rem">Where does your JavaScript code runs?</p>
+          <p class="fragment" style="font-size: 3rem">Typically in a Browser
+            <br />
+            (client)
+          </p>
           </section>
           <section>
             <h2>Jsconf 2009</h2>
-            <div class="row center-align">
-              <img width="" height="" class="col s10 offset-s1 responsive-img" src="img/ryan.jpg" alt="Ryan Dahl" style="">
-              <p class="col s12 ">   
+            <div class="">
+              <img width="" height="" class="" style="width: 80%;" src="img/ryan.jpg" alt="Ryan Dahl" style="">
+              <p class="">   
                 - Ryan Dahl     
               </p>
             </div>
           </section>
-        </section>
-
-        <section data-transition='concave' data-background='img/stars1.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
           <section>
-            <br />
-            <p class='v8' style="margin: auto; width: 25%; font-weight: bold; background-color: #1e88e5;">
-              V8 Engine
-            </p>
+              <br />
+              <p class='v8' style="margin: auto; width: 25%; font-weight: bold; background-color: #1e88e5;">
+                V8 Engine
+              </p>
 
-            <p class="fragment" style="background: #ef5350; width: 43%; font-size: 4rem; text-align: left; padding: 15px; position: absolute; top: -58px; left: 345px; z-index: -1; height: 180px;">
-              Node.js
-            </p>
+              <p class="fragment" style="background: #ef5350; width: 43%; font-size: 4rem; text-align: left; padding: 15px; position: absolute; top: -58px; left: 345px; z-index: -1; height: 180px;">
+                Node.js
+              </p>
 
-          </section>
-          <section>
-            <h2>What is Node.js?</h2>  
-            <div class="row">
-              <div class="col s8 offset-s2">
-                <ol>
-                  <li>
-                    <p class="fragment">
-                      It is a run time environment 
-                    </p>
-                  </li>
-                  <li>
-                    <p class="fragment">
-                      Built on Chrome’s V8 engine 
-                    </p>
-                  </li>
-                  <li>
-                    <p class="fragment">
-                      Building network applications on the server-side using JavaScript.
-                    </p>
-                  </li>
-                  <li>
-                    <p class="fragment">
-                      It uses event-driven and non-blocking model.
-                    </p>
-                  </li>
-                </ol>
-              </div>
-            </div>
           </section>
         </section>
 
-        <section data-transition='concave' data-background='img/stars.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
+        <section  data-transition='concave' data-background='img/stars.png' data-background-size="100px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
+          <h2>What is Node.js?</h2>  
+          <ol style="font-size: 2.6rem">
+            <li>
+              <p class="fragment">
+                It is a run time environment 
+              </p>
+            </li>
+            <li>
+              <p class="fragment">
+                Built on Chrome’s V8 engine 
+              </p>
+            </li>
+            <li>
+              <p class="fragment">
+                Building network applications on the server-side using JavaScript.
+              </p>
+            </li>
+            <li>
+              <p class="fragment">
+                It uses event-driven and non-blocking model.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section data-transition='concave' data-background='img/stars1.png' data-background-size="150px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
           <h2>What it is not?</h2>  
           <ol>
             <li>
@@ -150,7 +144,7 @@
 
         </section>
 
-        <section data-transition='concave' data-background='img/stars1.png' data-background-size="486px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
+        <section data-transition='concave' data-background='img/stars.png' data-background-size="200px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
           <h3>What you could build with Node.js?</h3>  
           <div class="row">
             <div class="col s8 offset-s2">
@@ -175,122 +169,93 @@
 
           </section>
 
-          <section data-markdown>
-            <script type="text/template">
-              ## Markdown support
+          <section  data-transition='concave' data-background='img/stars1.png' data-background-size="100px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
+            <h3>Blocking <span style="color:red">VS</span> Non-Blocking</h3>
+             <small style="  color: #ff2c2d; position: absolute; left: 50px">file_read.rb</small>
+            <pre style="box-shadow: none;">
+            <code data-trim contenteditable>
+file = File.open('introduction.txt', 'r')
 
-              Write content using inline or external Markdown.
-              Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+puts file.read
 
-              ```
-              <section data-markdown>
-                ## Markdown support
+puts "Welcome to Summer Camp 2015"
+            </code>
+            </pre>
+            <small style="  color: #ff2c2d; position: absolute; left: 50px">file_read.js</small>
+            <pre style="box-shadow: none;">
+            <code data-trim contenteditable>
+var fs = require('fs');
 
-                Write content using inline or external Markdown.
-                Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-              </section>
-              ```
-            </script>
+fs.readFile('introduction.txt' ,'utf8', function ( err, content ){
+  console.log(content);
+});
+
+console.log("Welcome to Summer Camp 2015");
+</code>
+</pre>
           </section>
 
-          <section>
-            <section id="fragments">
-              <h2>Fragments</h2>
-              <p>Hit the next arrow...</p>
-              <p class="fragment">... to step through ...</p>
-              <p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-              <aside class="notes">
-                This slide has fragments which are also stepped through in the notes window.
-              </aside>
-            </section>
+          <section data-transition='concave' data-background='img/stars1.png' data-background-size="150px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
             <section>
-              <h2>Fragment Styles</h2>
-              <p>There's different types of fragments, like:</p>
-              <p class="fragment grow">grow</p>
-              <p class="fragment shrink">shrink</p>
-              <p class="fragment fade-out">fade-out</p>
-              <p class="fragment current-visible">current-visible</p>
-              <p class="fragment highlight-red">highlight-red</p>
-              <p class="fragment highlight-blue">highlight-blue</p>
+            <h3>Hello world in Node.js</h3>
+              <pre style="box-shadow: none;">
+              <code data-trim contenteditable class="javascript">
+
+var http = require('http');
+
+var server = http.createServer(function (request, response) {
+
+  response.writeHead(200, {"Content-Type": "text/plain"});
+
+  response.end("Hello World\n");
+});
+
+server.listen(3000);
+
+console.log("Server running at http://127.0.0.1:3000/");
+              </code>
+              </pre>
             </section>
           </section>
 
-          <section id="transitions">
-            <h2>Transition Styles</h2>
-            <p>
-              You can select from different transitions, like: <br>
-              <a href="?transition=none#/transitions">None</a> -
-              <a href="?transition=fade#/transitions">Fade</a> -
-              <a href="?transition=slide#/transitions">Slide</a> -
-              <a href="?transition=convex#/transitions">Convex</a> -
-              <a href="?transition=concave#/transitions">Concave</a> -
-              <a href="?transition=zoom#/transitions">Zoom</a>
-            </p>
+          <section  data-transition='concave' data-background='img/stars.png' data-background-size="200px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
+            <h1 style="text-transform: none;">MongoDB</h1>
           </section>
 
-          <section id="themes">
-            <h2>Themes</h2>
-            <p>
-              reveal.js comes with a few themes built in: <br>
-              <!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-              <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-              <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-              <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-              <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-              <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-              <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-              <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-              <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-              <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-              <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-              <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-            </p>
+          <section data-transition='concave' data-background='img/stars1.png' data-background-size="200px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
+            <h2>History</h2>
+            <img src="img/timeline.png" alt="timeline" />
+            <img src="img/arrow.gif" alt="timeline"style="width: 12%; padding-bottom: 120px;" />
+            <p style="position: absolute;right: 0;bottom: 23%;">Relational Databases</p>
           </section>
 
-          <section>
-            <section data-background="#dddddd">
-              <h2>Slide Backgrounds</h2>
-              <p>
-                Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-              </p>
-              <a href="#" class="navigate-down">
-                <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-              </a>
+          <section  data-transition='concave' data-background='img/stars.png' data-background-size="200px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px">
+            <section>
+              <h3>Scaling</h3>
+              <img src="img/scale.png" alt="scale" />
+              <p>In 90's</p>
             </section>
-            <section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-              <h2>Image Backgrounds</h2>
-            <pre><code>&lt;section data-background="image.png"&gt;</code></pre>
+
+            <section>
+              <h3>Scaling Vertically</h3>
+              <img src="img/vertical_scaling.png" alt="scale" />
             </section>
-            <section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-              <h2>Tiled Backgrounds</h2>
-            <pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+            <section >
+              <h3>Scaling horizontally</h3>
+              <img src="img/horizontal_scaling.png" alt="scale" />
             </section>
-            <section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-              <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-                <h2>Video Backgrounds</h2>
-              <pre><code style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-              </div>
-            </section>
-            <section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-              <h2>... and GIFs!</h2>
+            <section >
+              <h3>Scaling horizontally</h3>
+              <img src="img/horizontal_issue.png" alt="scale" />
             </section>
           </section>
 
-          <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+          <section  data-transition='concave' data-background='img/stars1.png' data-background-size="200px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px" >
+            <img src="img/google_amazon.png" alt="scale" style="  width: 55%" />
+          </section>
+
+          <section  data-transition='concave' data-background='img/stars.png' data-background-size="100px" data-background-repeat="repeat" data-background-transition="slide" style="top: 10px" >
             <h2>Background Transitions</h2>
-            <p>
-              Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-            </p>
-          <pre><code>Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-          </section>
-
-          <section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-            <h2>Background Transitions</h2>
-            <p>
-              You can override background transitions per-slide.
-            </p>
-          <pre><code style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
           </section>
 
           <section>
@@ -452,7 +417,6 @@ Reveal.addEventListener( 'customevent', function() {
 
                   <script src="lib/js/head.min.js"></script>
                   <script src="js/reveal.js"></script>
-                  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
                   <script>
 
                     // Full list of configuration options available at:
